@@ -1,0 +1,14 @@
+# 파이썬 버전: 3.10 (camp 환경)
+#   conda create -n camp python=3.10 -y
+#   conda activate camp
+#   pip install -r requirements.txt
+#
+# lotto.py   : 표준 라이브러리(random, tkinter, datetime)만 사용 (tkinter 오류 시: conda install tk)
+# weather.py : requests, streamlit 사용 (streamlit run weather.py)
+
+requests
+streamlit
+
+# 아래 한 줄은 현재 lotto.py, weather.py에서 쓰지 않습니다.
+# datetime 은 표준 라이브러리라 설치가 필요 없습니다. (pip 의 datetime 은 다른 패키지)
+datetime

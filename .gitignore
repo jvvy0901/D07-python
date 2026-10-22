@@ -1,0 +1,16 @@
+# 비밀 키 (.env.example 은 예시 파일이라 올림)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# 편집기 / OS
+.DS_Store
