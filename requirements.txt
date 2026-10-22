@@ -3,12 +3,12 @@
 #   conda activate camp
 #   pip install -r requirements.txt
 #
-# lotto.py   : 표준 라이브러리(random, tkinter, datetime)만 사용 (tkinter 오류 시: conda install tk)
-# weather.py : requests, streamlit 사용 (streamlit run weather.py)
+# lotto.py    : 표준 라이브러리(random, tkinter, datetime)만 사용 (tkinter 오류 시: conda install tk)
+# weather.py  : requests, streamlit 사용 (streamlit run weather.py)
+# rateCalc.py : requests, streamlit, tzdata 사용 (streamlit run rateCalc.py)
 
 requests
 streamlit
 
-# 아래 한 줄은 현재 lotto.py, weather.py에서 쓰지 않습니다.
-# datetime 은 표준 라이브러리라 설치가 필요 없습니다. (pip 의 datetime 은 다른 패키지)
-datetime
+# 한국 시간(Asia/Seoul) 변환용 시간대 데이터. Windows 에는 기본으로 없어서 필요해요
+tzdata
