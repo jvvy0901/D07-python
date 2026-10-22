@@ -6,6 +6,7 @@
 # lotto.py    : 표준 라이브러리(random, tkinter, datetime)만 사용 (tkinter 오류 시: conda install tk)
 # weather.py  : requests, streamlit 사용 (streamlit run weather.py)
 # rateCalc.py : requests, streamlit, tzdata 사용 (streamlit run rateCalc.py)
+# chat.py     : requests, streamlit 사용 (streamlit run chat.py)
 
 requests
 streamlit
